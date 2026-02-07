@@ -1,0 +1,65 @@
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse / STS
+.classpath
+.project
+.settings/
+.springBeans
+
+# VS Code
+.vscode/
+
+# ===== Maven / Java =====
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Maven Wrapper (keep wrapper, ignore its build outputs)
+.mvn/wrapper/maven-wrapper.jar
+
+# ===== Spring Boot =====
+# local config override (do not commit secrets)
+application-local.yml
+application-local.properties
+
+# ===== Env / Secrets =====
+.env
+.env.*
+!.env.example
+
+# ===== Flyway / DB =====
+# (usually keep migrations; ignore local DB artifacts if any)
+*.sqlite
+*.db
+
+# ===== Docker =====
+# local volumes / override files
+docker-compose.override.yml
+
+# ===== Build tools =====
+# Gradle (if mixed)
+.gradle/
+build/
+
+# ===== Node (if any for future UI tooling) =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== Misc =====
+*.tmp
+*.swp
+*.swo
