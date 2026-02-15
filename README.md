@@ -57,4 +57,8 @@ Flyway V2 の seed は **平文パスワードを入れません**。
 ### 2) 起動
 ```bash
 docker compose up -d --build
+#データベースだけ
+docker compose up -d db
+#稼働確認
+docker ps
 ```
